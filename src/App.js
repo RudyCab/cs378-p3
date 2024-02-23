@@ -125,7 +125,7 @@ function App() {
               alert('No items have been added to order!!!');
             } else {
               handleClearAll();
-              alert('All items cleared!');
+              alert('All items ordered!');
             }
           }} type="button">Order</button>
       </div>
