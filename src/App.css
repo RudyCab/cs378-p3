@@ -2,31 +2,36 @@
   Style your elements by creating CSS classes here.
   Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
 */
+
+.body {
+  background-color: rgb(210, 180, 140);
+}
+
 .logo {
   display: block;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 .name {
   display: block; 
-  margin-top: -5px;
+  margin-top: -10%;
   text-align: center;
-  color: tan;
+  color: black;
   /* background-color: tan; */
   font-family: papyrus;
   font-weight: bolder;
-  background-color:rgba(3, 207, 230, 0.558);
 }
 
 .caption {
   display: block;
   text-align: center;
-  color: tan;
+  color: rgb(105, 65, 13);
   font-family: papyrus;
-  margin-top: -15px;
+  margin-top: -8%;
   font-weight: bold;
-  background-color:rgba(3, 207, 230, 0.558);
 }
 
 .foodImages {
@@ -39,6 +44,8 @@
   max-height: 35%;
   object-fit: cover;
   object-fit: center;
+  color: tan;
+
 }  
 
 .foodName {
@@ -54,8 +61,7 @@
     padding-top: 10%;
     margin-left: 50%;
     margin-top: -60%;
-    color: white;
-
+    color: #5d391f;
 }
 
 .row {
@@ -93,4 +99,53 @@ button {
 button:hover {
   background-color:rgba(5, 151, 167, 0.558);
   ; /* Darker green on hover */
+}
+
+.checkout-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  background-color: tan;
+  min-height: 10%;
+
+
+}
+
+.totalDisplay {
+  display: block;
+  font-weight: bolder;
+  position: relative;
+  top: -17px;
+  left: 30px;
+}
+
+.order {
+  left: 5%;
+  top: -60px;
+}
+
+.clear {
+  left: -15%;
+  top: 25px;
+  margin-top: 25px;
+  position:relative;
+  z-index:3000; 
+  /* bottom: -50px; */
+
+}
+
+.minus {
+  left: -30%;
+}
+
+.add {
+  top: -116px;
+}
+
+.displayItems {
+  display: block;
+  position: relative;
+  left: 49%;
+  top: -73px;
 }
