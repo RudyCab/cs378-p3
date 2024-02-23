@@ -122,10 +122,10 @@ function App() {
           <p class="totalDisplay">Subtotal ${total}</p>
           <button className="order" onClick={() => {
             if (total === 0) {
-              alert('No items to clear');
+              alert('No items have been added to order!!');
             } else {
               handleClearAll();
-              alert('All items cleared');
+              alert('All items cleared!');
             }
           }} type="button">Order</button>
       </div>
